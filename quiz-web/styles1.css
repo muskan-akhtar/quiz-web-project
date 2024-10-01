@@ -1,0 +1,200 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-image: url('background-img.jpg'); 
+    background-color: #c1fa93;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+#quiz-container {
+    justify-content: center;
+    background: rgb(230, 221, 228);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 30%;
+    overflow: hidden; 
+}
+
+h1 {
+    justify-content: center;
+    margin-bottom: 15px;
+    text-align: center; 
+    color: azure;
+    font: 3em sans-serif;
+}
+
+#options {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%; 
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#feedback {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#next-button {
+    display: none;
+    background-color: #28a745;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.party-popper {
+    font-size: 50px;
+    animation: partyPop 1s infinite alternate;
+}
+
+@keyframes partyPop {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+@media (max-width: 600px) {
+    #quiz-container {
+        padding: 15px;
+    }
+    
+    button {
+        margin: 5px 0;
+    } */
+
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('background-img.jpg'); 
+        background-color: #c1fa93;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column; 
+        height: 100vh; 
+        overflow: hidden; 
+    }
+    
+    #quiz-container {
+        justify-content: center;
+        background: rgb(230, 221, 228);
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        width: 90%; /* Adjusted for better mobile view */
+        max-width: 600px; /* Optional: set a maximum width */
+        max-height: 80vh; /* Limit the height */
+        overflow-y: auto; /* Allow vertical scrolling */
+    }
+    
+    h1 {
+        justify-content: center;
+        margin-bottom: 10px; /* Reduced bottom margin */
+        text-align: center; 
+        color: azure;
+        font: 2.5em sans-serif; /* Reduced font size for better mobile viewing */
+    }
+    
+    #options {
+        margin: 15px 0; /* Reduced margin */
+    }
+    
+    button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 10px; /* Adjusted button padding */
+        margin: 5px 0;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+        width: 100%; 
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+    
+    #feedback {
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    
+    #next-button {
+        display: none;
+        background-color: #28a745;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .party-popper {
+        font-size: 50px;
+        animation: partyPop 1s infinite alternate;
+    }
+    
+    @keyframes partyPop {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.2);
+        }
+    }
+    
+    @media (max-width: 600px) {
+        body {
+            padding: 10px; /* Reduced padding on body */
+        }
+        
+        #quiz-container {
+            padding: 10px; /* Adjusted container padding */
+            width: 95%; /* Ensure the container is nearly full width */
+            max-height: 70vh; /* Reduce max height */
+        }
+        
+        h1 {
+            font-size: 2em; /* Further reduce font size for mobile */
+        }
+        
+        button {
+            padding: 10px 12px; /* Adjust button size */
+        }
+    }
+    

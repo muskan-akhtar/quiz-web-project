@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="favicon portfolio.jpeg">
+    <title>QUIZ-MAIN-PAGE</title>
+</head>
+
+<body>
+    <div class="slider">
+        <div class="slide active">Hi, My name is Muskan Akhtar</div>
+        <div class="slide">I am a student of GIAIC.</div>
+        <div class="slide">I am making an AI related quiz.</div>
+        <div class="slide">It will increase your financial IQ.</div>
+        <div class="slide">I hope you will like my website.</div>
+        <div class="slide">Let's get started.</div>
+    </div>
+
+    <div class="quiz-options" id="options" style="display: none;">
+        <h2>Which quiz would you like to take?</h2>
+        <button onclick="startQuiz('html')">HTML Quiz</button>
+        <button onclick="startQuiz('react')">React Quiz</button>
+        <button onclick="startQuiz('nextjs')">Next.js Quiz</button>
+        <button onclick="startQuiz('javascript')">JavaScript Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
