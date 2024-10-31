@@ -36,6 +36,9 @@ function startQuiz(quizType) {
         case 'javascript':
             url = 'javascript-quiz.html';
             break;
+        case 'tailwindcss':
+            url = 'tailwind-quiz.html';
+            break;
     }
     window.location.href = url; 
 }
